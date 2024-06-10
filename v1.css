@@ -1,0 +1,20 @@
+.new-why .how-box p.font18 {
+    font-size: 18px;
+    //padding: 0 15px;
+    color: #000000 !important;
+    font-weight: 700;
+}
+
+.new-why .how-box p {
+    margin-bottom: 0;
+    padding: 0 20px !important;
+    color: #666;
+}
+
+@media only screen and (max-width: 767px) {
+    .how-box img {
+        //margin-bottom: 10px;
+        width: 60px !important;
+        margin: -20px !important;
+    }
+}

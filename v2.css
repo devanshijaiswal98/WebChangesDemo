@@ -1,0 +1,42 @@
+@media only screen and (max-width: 780px) {
+
+    .index .free-how .svg-bottom,
+    svg.flipper {
+        display: block !important;
+    }
+
+}
+
+@media only screen and (max-width: 1180px) {
+
+    .bc-free-two-content,
+    .bc-free-one .bc-free-two-content {
+        width: 100% !important;
+    }
+}
+
+.bc-head-text {
+
+    text-align: center !important;
+}
+
+.bc-inner-holderp.font18 {
+    color: #000000 !important;
+}
+
+.bc-inner-holder p {
+    padding: 0 20px !important;
+}
+
+.bc-free-holder img {
+    width: 120px !important;
+    margin-bottom: 20px !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .bc-free-holder img {
+        width: 50px !important;
+        float: left !important;
+        margin-bottom: 20px !important;
+    }
+}
