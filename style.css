@@ -1,0 +1,67 @@
+.slider {
+    width: 100%;
+}
+
+.slick-slider button {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: none;
+    background-color: 'transparent';
+    color: black;
+    z-index: 99;
+
+}
+
+.slick-slider .slick-prev {
+    left: 30px;
+    font-size: 0;
+}
+
+.slick-slider .slick-prev::before {
+    content: '<';
+    line-height: 1;
+    font-size: 30px;
+}
+
+.slick-slider .slick-next {
+    right: 30px;
+    font-size: 0;
+}
+
+.slick-slider .slick-next::after {
+    content: '>';
+    line-height: 1;
+    font-size: 30px;
+}
+
+.slick-slider {
+    width: 100%;
+}
+
+.slick-slide {
+    padding: 50px 0;
+    position: relative;
+    height: auto !important;
+    transition: all 900ms ease;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .slider div .vc_column-inner .wpb_wrapper .hp_240122_dev-bnnr_btn-mbl {
+        padding-top: 20px !important;
+        display: block !important;
+    }
+}
+
+.hp_240122_dev-bnnr_btn-dsktp {
+    display: none !important;
+}
